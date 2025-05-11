@@ -16,7 +16,7 @@ const Post = require("./models/Post");
 
 // cors cross origin resource sharing allows all websites to access this backend
 // this will allow cookie to be sent at server from front end
-app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
+app.use(cors({ credentials: true, origin: true }));
 app.use(express.json());
 //  It parses incoming JSON data from the request body.
 
